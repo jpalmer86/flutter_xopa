@@ -1,0 +1,44 @@
+name: xopa_app
+description: Collaborate with Creators
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Additional Dependencies
+  google_fonts: ^1.1.0
+  shared_preferences: ^0.5.7+1
+  dio: ^3.0.9
+  bloc: ^4.0.0
+  flutter_bloc: ^4.0.0
+  cached_network_image: ^2.2.0+1
+  webview_flutter: ^0.3.21
+  url_launcher: ^5.4.5
+  animations: ^1.0.0+5
+  web_socket_channel: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.7.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/instagram.png
+    - assets/images/facebook.png
+    - assets/images/twitter.png
+    - assets/images/linkedin.png
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: fonts/jost/Jost-Regular.ttf
+        - asset: fonts/jost/Jost-Bold.ttf
+          weight: 700
+        - asset: fonts/jost/Jost-Italic.ttf
+          style: italic
